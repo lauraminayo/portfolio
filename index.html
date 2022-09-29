@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <linkn href="<link rel=" preconnect " href="https://fonts.googleapis.com ">
+        <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap " rel="stylesheet ">
+        <script src="https://kit.fontawesome.com/1c5bc21eea.js " crossorigin="anonymous "></script>
+
+    <body>
+        <section class="header ">
+            <nav>
+                <div class="nav-links " id="navLinks ">
+                    <i class="fas fa-times " onclick="hideMenu() "></i>
+    
+                    <ul>
+                        <li><a href="index.html ">HOME</a></li>
+                        <li><a href="about.html ">ABOUT</a></li>
+                        <li><a href="skills.html ">SKILLS</a></li>
+                        <li><a href=" ">PROJECTS</a></li>
+                        <li><a href=" ">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars " onclick="showMenu() "></i>
+    
+            </nav>
+            
+            <div class="vertical-center ">
+                <h1>Hi I am Laura, a JUNIOR DEVELOPER.</h1><br>
+                <h2>With skills in Html5, Css3, Bootstrap, Python, Javascript,<br>basic Php and backend At large</h2><br>
+                <a href=" " class="hero-btn ">Contact Me</a>
+            </div>
+        </section>
+
+        <!--------JavaScript Toggle Menu-------->
+        <script>
+            var navLinks = document.getElementById("navLinks ");
+
+            function showMenu() {
+                navLinks.style.right = "0 ";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px ";
+            }
+        </script>
+    </body>
+
+</html>

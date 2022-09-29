@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="skills.css">
+    <linkn href="<link rel=" preconnect " href="https://fonts.googleapis.com ">
+        <link rel="preconnect " href="https://fonts.gstatic.com " crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap " rel="stylesheet ">
+        <script src="https://kit.fontawesome.com/1c5bc21eea.js " crossorigin="anonymous "></script>
+
+    <body>
+        <section class="header ">
+            <nav>
+                <div class="nav-links " id="navLinks ">
+                    <i class="fas fa-times " onclick="hideMenu() "></i>
+    
+                    <ul>
+                        <li><a href="index.html ">HOME</a></li>
+                        <li><a href="about.html ">ABOUT</a></li>
+                        <li><a href="skills.html ">SKILLS</a></li>
+                        <li><a href=" ">PROJECTS</a></li>
+                        <li><a href=" ">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars " onclick="showMenu() "></i>
+    
+            </nav>
+        </section>
+        
+        
+        <section class="second ">
+            <nav>
+            <div class="vertical-center ">
+                <h1>SKILLS</h1>
+                <div class="major ">
+                    <div class="caption ">
+            <h2>Languages:</h2>
+            <h3>JavaScript<br>Python</h3>
+                </div>
+                <div class="wiggle ">
+                <h2>Libraries and Frameworks:</h2>
+                <h3>Django<br>Flask<br>Node js<br>jQuery</h3>
+                </div>
+                <div class="option ">
+                    <h2>Databases:</h2>
+                    <h3>mySQL<br>SQL<br>MongoDB</h3>
+                </div>
+                <div class="mines ">
+                    <h2>Expertise:</h2>
+                    <h3>Data Analysis and Visualization<br> Responsive Web Development</h3>
+                </div>
+            </div>
+            </div>
+            </nav>
+                             
+        </section>
+
+        <!--------JavaScript Toggle Menu-------->
+        <script>
+            var navLinks = document.getElementById("navLinks ");
+
+            function showMenu() {
+                navLinks.style.right = "0 ";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px ";
+     }
+        </script>
+    </body>
+
+</html>
